@@ -1,0 +1,179 @@
+/*
+ * Authors: Sam Felzien, Peter Mahon
+ * Course:  CSC 337, Fall 2017
+ * Final Project
+ */
+h1{
+	font-family: Courier; 
+	text-align: center;
+	vertical-align: middle;
+	grid-column-start: 2;
+	grid-row-start: 2;
+}
+
+#toChange{
+    grid-row-start: 3;
+}
+
+label, input {
+    display: block;
+    font: bold 25px Courier;
+    
+}
+
+label {
+    margin: 20px 20px 15px 30px;
+    font: bold 25px Courier;
+}
+
+input{
+	margin: 0px 20px 0px 45px; 
+}
+
+
+.logoutButton{
+	grid-column-start: 3;
+	grid-row-start: 1;
+	margin-left: 10px; 
+	justify-self: left; 
+	align-self: end; 
+    background-color: purple;
+    height: 42.8px; 
+    border: 15px;
+    border-radius: 7px 7px 7px 7px; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+  
+}
+
+
+.buttonContainer{
+	padding-top: 40px; 
+	grid-column-start: 2;
+	grid-row-start: 1;
+	justify-self: center; 
+}
+
+
+.container{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: white;
+    padding-bottom: 20px;
+    display: table;
+    grid-column-start: 2;
+
+}
+
+
+
+.pageButton {
+	display: inline-block;
+    background-color: purple;
+    border: 15px;
+    margin-bottom: 0px; 
+    border-radius: 7px 7px 7px 7px; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    vertical-align:top;
+}
+
+.body {
+	border-style: solid;
+	border-width: 2px; 
+	border-radius: 25px;
+	padding:10px;
+	margin: 10px; 
+
+}
+
+.favMemes{
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px; 
+	border-radius: 25px;
+	background: #FFF0F5; 
+	padding: 15px; 
+	overflow: auto; 
+	display: grid; 
+	grid-template-columns: 20% 10% 10% 20% 10% 10% 20%;
+	grid-template-rows: 15% auto 15% 15%;
+}
+
+
+.memeName {
+	padding: 5px; 
+	font: bold 20px Courier;
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	justify-self: center; 
+}
+
+.img {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
+
+
+.description {
+	padding: 10px;
+	padding-bottom: 20px; 
+	font: 14px Courier;
+	grid-column-start: 5;
+	grid-column-end: span last-line;
+	grid-row-start: 2;
+	line-height: 200%; 
+}
+
+.favButton {
+	padding: 10px; 
+	background-color: grey;
+	color: white;
+	border-radius: 7px;
+	font-size: 15px; 
+	font-family: Courier;
+	grid-column-start: 3;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	justify-self: center; 
+}
+
+.message{ 
+	font-size: 20px; 
+	font-family: Courier;
+	text-align: center; 
+	border-color: white; 
+	background: white; 
+	border-radius: 20px;
+}
+
+.error{
+    padding-left: 30px;
+    color: red;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans", "Comic Sans MS", Arial, sans-serif;
+    font-size: 1.2em;
+    padding: 5px 25px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 20px;
+    grid-row-start: 5; 
+    grid-column-start: 2; 
+}
